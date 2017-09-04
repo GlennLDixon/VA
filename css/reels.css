@@ -1,0 +1,92 @@
+body {
+    font: 20px 'Archivo', sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+    background-color: #2f2f2f;
+}
+
+.navbar-nav > li > a:hover {
+    color: #A6B0AE !important;
+}
+
+.navbar-brand {
+  font-family: 'Archivo', sans-serif;;
+  font-size: 25px;
+  color: #A6B0AE !important;
+}
+
+.reel {
+    width: auto;
+    margin-top: 10px;
+}
+
+
+.margin {margin-bottom: 45px;}
+.bg-1 {
+    background-color: #fff; /* Dark Blue */
+    color: #ffffff;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.icon-header {
+  font-family: 'Saira Semi Condensed', serif;
+  font-size: 30px;
+  color: #2f2f2f;
+}
+
+.icons {
+  display: inline;
+}
+
+.icons > .fa{
+  color: #2f2f2f;
+  margin: 35px 15px;
+  postion: relative;
+  bottom: 0;
+  transition:all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.icons > .twitter:hover {
+  color: #6cadde;
+  bottom: 5px;
+}
+
+.icons > .instagram:hover {
+  color: #9b6954;
+  bottom: 5px;
+}
+
+.icons > .facebook:hover {
+  color: #3b5998;
+  bottom: 5px;
+}
+
+.icons > .youtube:hover{
+  color: #cc181e;
+  bottom: 5px;
+}
+
+.footer {
+    background-color:#2f2f2f; /* Black Gray */
+    color: #fff;
+}
+
+footer p {
+  font-size: 25px;
+  font-family: 'Saira Semi Condensed', serif;
+}
