@@ -16,21 +16,22 @@ body {
 }
 
 .navbar-nav > li > a:hover {
-    color: #A6B0AE !important;
+    color: #a6b0ae !important;
 }
 
 .navbar-brand {
-  font-family: 'Archivo', sans-serif;;
+  font-family: 'Archivo', sans-serif;
   font-size: 25px;
-  color: #A6B0AE !important;
+  color: #a6b0ae !important;
 }
 
-.thumbnail {
-  border: none;
+.thumbnail img {
+  width: 400px;
+  height: 300px;
 }
 
 .page-header {
-    margin-bottom: -25px;
+  margin-bottom: -25px;
 }
 
 .page-header img {
@@ -39,17 +40,21 @@ body {
   height: 200px;
 }
 
-.thumbnail img{
-  width: 100%;
-  height: 200px;
-  margin-top: -4px;
+.thumbnail {
+border: none;
 }
 
-.reel {
-    width: auto;
-    margin-top: 10px;
+
+p {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Archivo', sans-serif;
+  font-size: 25px;
 }
 
+.cs{
+  color: #000;
+}
 
 .margin {margin-bottom: 45px;}
 .bg-1 {
