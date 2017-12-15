@@ -1,3 +1,8 @@
+
+/* I just dumped everything in here but you should organize 'what' is 'where'*/
+
+/* Main Styles */
+
 body {
     font: 20px 'Archivo', sans-serif;
     line-height: 1.8;
@@ -24,22 +29,22 @@ body {
   font-size: 25px;
   color: #a6b0ae !important;
 }
-
-.page-header {
-  margin-bottom: -25px;
+/* I renamed from page-header to page--header because bootstrap was adding extra styling to it */
+.page--header {
+  text-align: center;
+  background: black;
 }
 
-.page-header img {
-  margin-top: -45px;
-  width: 100%;
+.page--header img {
+  max-width: 100%;
   height: 200px;
 }
 
-img {
+/* img {
    width: 100%;
    height: auto;
    background-size: cover;
-}
+} */
 
 
 p {font-size: 16px;}
@@ -133,4 +138,81 @@ footer p {
   font-size: 55px;
   font-weight: 900;
   color: #2f2f2f;
+}
+
+/* Thumbnails */
+.thumbnail {
+  border: none;
+}
+
+.thumbnail img{
+  max-width: 100%;
+  height: 200px;
+  margin-top: -4px;
+}
+
+.reel {
+    width: auto;
+    margin-top: 10px;
+}
+
+
+.margin {margin-bottom: 45px;}
+.bg-1 {
+    background-color: #fff; /* Dark Blue */
+    color: #ffffff;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.icon-header {
+  font-family: 'Saira Semi Condensed', serif;
+  font-size: 30px;
+  color: #2f2f2f;
+}
+
+.icons {
+  display: inline;
+}
+
+.icons > .fa{
+  color: #2f2f2f;
+  margin: 35px 15px;
+  postion: relative;
+  bottom: 0;
+  transition:all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.icons > .twitter:hover {
+  color: #6cadde;
+  bottom: 5px;
+}
+
+.icons > .instagram:hover {
+  color: #9b6954;
+  bottom: 5px;
+}
+
+.icons > .facebook:hover {
+  color: #3b5998;
+  bottom: 5px;
+}
+
+.icons > .youtube:hover{
+  color: #cc181e;
+  bottom: 5px;
+}
+
+.footer {
+    background-color:#2f2f2f; /* Black Gray */
+    color: #fff;
+}
+
+footer p {
+  font-size: 25px;
+  font-family: 'Saira Semi Condensed', serif;
 }
