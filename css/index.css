@@ -40,13 +40,6 @@ body {
   height: 200px;
 }
 
-/* img {
-   width: 100%;
-   height: auto;
-   background-size: cover;
-} */
-
-
 p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
 .bg-1 {
@@ -163,56 +156,3 @@ footer p {
     color: #ffffff;
 }
 
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-.icon-header {
-  font-family: 'Saira Semi Condensed', serif;
-  font-size: 30px;
-  color: #2f2f2f;
-}
-
-.icons {
-  display: inline;
-}
-
-.icons > .fa{
-  color: #2f2f2f;
-  margin: 35px 15px;
-  postion: relative;
-  bottom: 0;
-  transition:all 0.2s ease-in-out;
-  display: inline-block;
-}
-
-.icons > .twitter:hover {
-  color: #6cadde;
-  bottom: 5px;
-}
-
-.icons > .instagram:hover {
-  color: #9b6954;
-  bottom: 5px;
-}
-
-.icons > .facebook:hover {
-  color: #3b5998;
-  bottom: 5px;
-}
-
-.icons > .youtube:hover{
-  color: #cc181e;
-  bottom: 5px;
-}
-
-.footer {
-    background-color:#2f2f2f; /* Black Gray */
-    color: #fff;
-}
-
-footer p {
-  font-size: 25px;
-  font-family: 'Saira Semi Condensed', serif;
-}
